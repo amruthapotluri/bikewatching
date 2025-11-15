@@ -227,7 +227,7 @@ map.on('load', async () => {
   updatePositions();
 
   // Reposition markers on map interactions
-  map.on('move', updatePositions);
+  // map.on('move', updatePositions);
   map.on('zoom', updatePositions);
   map.on('resize', updatePositions);
   map.on('moveend', updatePositions);
